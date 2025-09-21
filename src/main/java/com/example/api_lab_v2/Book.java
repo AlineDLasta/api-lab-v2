@@ -19,7 +19,8 @@ public class Book {
         return titulo;
     }
 
-    public void setTitulo(String titulo){
+    public Book setTitulo(String titulo){
         this.titulo = titulo;
+        return this;
     }
 }
